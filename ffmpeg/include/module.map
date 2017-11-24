@@ -1,0 +1,13 @@
+module ffmpeg[extern_c] {
+    header "libavcodec/avcodec.h"
+    header "libavformat/avformat.h"
+    header "libavformat/avio.h"
+    header "libavutil/file.h"
+    header "libavfilter/avfiltergraph.h"
+    header "libavfilter/buffersink.h"
+    header "libavfilter/buffersrc.h"
+    header "libavutil/opt.h"
+    header "libavutil/samplefmt.h"
+
+    export *
+}
